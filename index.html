@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>新入生の皆さんへ</title>
+    <meta
+      name="description"
+      content="STUDY FOR TWOは新入生を募集しています。"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link rel="manifest" href="dist/assets/icon/manifest.webmanifest" />
+    <link rel="icon" href="dist/assets/icon/favicon.ico" sizes="any" />
+    <!-- 32×32 -->
+    <link rel="icon" href="dist/assets/icon/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="dist/assets/icon/apple-touch-icon.png" />
+    <!-- 180×180 -->
+    <link rel="stylesheet" href="dist/assets/css/reset.css" />
+    <link rel="stylesheet" href="dist/assets/css/style.min.css" />
+    <link rel="stylesheet" href="./welcome.scss" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header_inner">
+        <div class="navToggle"><span></span><span></span><span></span></div>
+        <nav id="globalNav">
+          <div id="globalNav_list">
+            <ul>
+              <li><a href="">TOPページ</a></li>
+              <li><a href="">教科書検索</a></li>
+              <li><a href="">カートを見る</a></li>
+              <li><a href="">ガイドライン</a></li>
+              <li><a href="">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div class="navSearch">
+          <div class="navSearch_wrapper">
+            <div class="navSearch_glass">
+              <div class="navSearch_icon navSearch_open"></div>
+              <div class="navForm_wrapper">
+                <form role="search" action="shop" method="GET" id="navForm">
+                  <input
+                    type="text"
+                    name="keyword"
+                    value=""
+                    class="navForm_input-focus"
+                    id="navForm_text"
+                    placeholder="キーワードで検索"
+                  />
+                  <input type="hidden" name="method" value="searching" />
+                  <input type="hidden" name="page_id" value="1" />
+                  <div class="navForm_clear navForm_input-focus"></div>
+                  <input
+                    type="submit"
+                    aria-label="navForm_submit"
+                    class="navForm_input-focus"
+                    value=""
+                  />
+                </form>
+              </div>
+            </div>
+            <a href="cart" class="navSearch_cart">
+              <span id="cart_figure"> </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- ここから -->
+
+      <!-- ここまで -->
+    </main>
+    <footer>
+      <div id="globalFooter" class="footer_inner">
+        <div class="footerMap">
+          <ul class="footerMap_list">
+            <li><a href="">TOPページ</a></li>
+            <li><a href="">教科書検索</a></li>
+            <li><a href="">カートを見る</a></li>
+            <li><a href="">ガイドライン</a></li>
+            <li><a href="">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <small class="copyright"
+          >&copy; 2023 STUDY FOR TWO. All Rights Reserved.</small
+        >
+      </div>
+    </footer>
+    <script src="dist/assets/js/script.min.js" defer></script>
+  </body>
+</html>
