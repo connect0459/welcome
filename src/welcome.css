@@ -1,3 +1,44 @@
 .welcome {
   margin-top: 8rem;
+}
+.welcome .steps-section .step {
+  border-bottom: 1px dotted #000;
+  padding: 20px 0;
+}
+.welcome .steps-section .step:last-child {
+  border-bottom: none;
+}
+.welcome .steps-section .step .step-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.welcome .steps-section .step .step-header .step-number {
+  background-color: #02a0e9;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.welcome .steps-section .step .step-header .step-title {
+  font-size: 1.2em;
+  color: #333;
+}
+.welcome .steps-section .step .step-description {
+  color: #666;
+  line-height: 1.5;
+}
+.welcome .steps-section .step .calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.welcome .steps-section .step .calendar > img {
+  width: 300px;
+  height: auto;
+}
+.welcome .steps-section .step .x_post {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=welcome.css.map */
